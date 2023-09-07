@@ -1,0 +1,227 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2556,
+            "type": "VEC3",
+            "max": [
+                198.84535217285157,
+                527.0194091796875,
+                156.8408966064453
+            ],
+            "min": [
+                -198.84519958496095,
+                -467.7875061035156,
+                -271.0176086425781
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2556,
+            "type": "VEC3",
+            "max": [
+                0.9999948740005493,
+                0.9999944567680359,
+                0.9999938607215881
+            ],
+            "min": [
+                -0.9999948740005493,
+                -0.9999944567680359,
+                -0.9999956488609314
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 3828,
+            "type": "SCALAR",
+            "max": [
+                2555
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2848,
+            "type": "VEC3",
+            "max": [
+                198.84535217285157,
+                527.0194091796875,
+                141.7569122314453
+            ],
+            "min": [
+                -198.8452606201172,
+                -187.33230590820313,
+                -255.93373107910157
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2848,
+            "type": "VEC3",
+            "max": [
+                0.9999514818191528,
+                0.9999517798423767,
+                0.9996725916862488
+            ],
+            "min": [
+                -0.9999514818191528,
+                -0.9999518990516663,
+                -0.9997003674507141
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 4272,
+            "type": "SCALAR",
+            "max": [
+                2847
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 162096,
+            "uri": "towers .bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30672,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30672,
+            "byteLength": 30672,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 61344,
+            "byteLength": 15312,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 76656,
+            "byteLength": 34176,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 110832,
+            "byteLength": 34176,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 145008,
+            "byteLength": 17088,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "body",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9936754703521729
+            },
+            "emissiveFactor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+            ]
+        },
+        {
+            "name": "extras",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9936754703521729
+            },
+            "emissiveFactor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube-body",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                },
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Cube",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
